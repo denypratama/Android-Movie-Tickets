@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:id="@+id/home"
+        android:title="HOME"
+        android:icon="@drawable/navbar_home" />
+    <item android:id="@+id/cinema"
+        android:title="CINEMA"
+        android:icon="@drawable/navbar_cinema" />
+    <item android:id="@+id/ticket"
+        android:title="TICKET"
+        android:icon="@drawable/navbar_tiket" />
+</menu>
