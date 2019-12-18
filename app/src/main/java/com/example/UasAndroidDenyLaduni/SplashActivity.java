@@ -1,4 +1,4 @@
-package com.example.uas;
+package com.example.UasAndroidDenyLaduni;
 
 import androidx.appcompat.app.AppCompatActivity;
 

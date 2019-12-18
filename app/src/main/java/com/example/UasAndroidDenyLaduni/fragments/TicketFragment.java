@@ -1,4 +1,4 @@
-package com.example.uas.fragments;
+package com.example.UasAndroidDenyLaduni.fragments;
 
 
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.uas.R;
+import com.example.UasAndroidDenyLaduni.R;
 
 /**
  * A simple {@link Fragment} subclass.

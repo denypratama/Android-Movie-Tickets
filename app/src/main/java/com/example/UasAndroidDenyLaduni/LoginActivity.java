@@ -1,4 +1,4 @@
-package com.example.uas;
+package com.example.UasAndroidDenyLaduni;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.uas.fragments.HistoryFragment;
+import com.example.UasAndroidDenyLaduni.fragments.HistoryFragment;
 
 public class LoginActivity extends AppCompatActivity {
 

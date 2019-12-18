@@ -1,4 +1,4 @@
-package com.example.uas;
+package com.example.UasAndroidDenyLaduni;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,8 +15,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.example.uas.fragments.HomeFragment;
 
 
 public class WelcomeActivity extends AppCompatActivity {

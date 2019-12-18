@@ -1,4 +1,4 @@
-package com.example.uas;
+package com.example.UasAndroidDenyLaduni;
 
 import org.junit.Test;
 
