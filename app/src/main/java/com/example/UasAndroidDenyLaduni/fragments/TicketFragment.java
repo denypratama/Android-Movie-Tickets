@@ -54,17 +54,23 @@ public class TicketFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 //        TextView checkboxText = view.findViewById(R.id.text_checkbox_preference);
 //        TextView switchText = view.findViewById(R.id.text_switch_preference);
-        TextView dropdownText = view.findViewById(R.id.text_dropdown_preference);
+        TextView dropdownText = view.findViewById(R.id.bioskop);
+        TextView dropjam = view.findViewById(R.id.jam);
+        TextView dropmakan = view.findViewById(R.id.makan);
 //        TextView seekbarText = view.findViewById(R.id.text_seekbar_preference);
 
         boolean checkboxValue = preferences.getBoolean(CHECKBOX_KEY, false);
         boolean switchValue = preferences.getBoolean(SWITCH_KEY, false);
         String dropdownValue = preferences.getString(DROPDOWN_KEY, null);
+        String dropjamnilai = preferences.getString(DROPDOWN_KEY, null);
+        String dropmakannilai = preferences.getString(DROPDOWN_KEY, null);
         int seekbarValue = preferences.getInt(SEEKBAR_KEY, 0);
 
 //        checkboxText.setText((checkboxValue) ? "enable" : "disable");
 //        switchText.setText((switchValue) ? "enable" : "disable");
         dropdownText.setText(dropdownValue);
+        dropjam.setText(dropjamnilai);
+        dropmakan.setText(dropmakannilai);
 //        seekbarText.setText(String.valueOf(seekbarValue));
     }
 

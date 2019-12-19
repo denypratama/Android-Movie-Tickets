@@ -44,6 +44,20 @@
             app:useSimpleSummaryProvider="true"
             android:entryValues="@array/Bioskop"/>
 
+        <DropDownPreference
+            android:key="dropdown"
+            android:title="Pilih Waktu yang Diinginkan : "
+            android:entries="@array/jam"
+            app:useSimpleSummaryProvider="true"
+            android:entryValues="@array/Bioskop"/>
+
+        <DropDownPreference
+            android:key="dropdown"
+            android:title="Pilih Makanan yang Diinginkan : "
+            android:entries="@array/makan"
+            app:useSimpleSummaryProvider="true"
+            android:entryValues="@array/Bioskop"/>
+
 <!--        <SeekBarPreference-->
 <!--            android:key="seekbar"-->
 <!--            android:title="@string/title_seekbar_preference"-->

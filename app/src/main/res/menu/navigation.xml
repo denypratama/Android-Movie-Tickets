@@ -12,8 +12,8 @@
     <item android:id="@+id/ticket"
         android:title="BIOSKOP"
         android:icon="@drawable/navbar_tiket" />
-    <item android:id="@+id/set"
-        android:title="SETTING"
-        android:icon="@drawable/settings" />
+<!--    <item android:id="@+id/set"-->
+<!--        android:title="SETTING"-->
+<!--        android:icon="@drawable/settings" />-->
 </menu>
 

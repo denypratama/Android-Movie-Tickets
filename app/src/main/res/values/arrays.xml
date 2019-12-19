@@ -10,4 +10,21 @@
         <item>MovieMax Sarinah</item>
         <item>MovieMax City Point</item>
     </string-array>
+
+    <string-array name="jam">
+        <item>10.45</item>
+        <item>12.30</item>
+        <item>14.15</item>
+        <item>16.25</item>
+        <item>18.45</item>
+        <item>20.15</item>
+        <item>22.30</item>
+    </string-array>
+
+    <string-array name="makan">
+        <item>Popcorn Small : Rp. 10.000</item>
+        <item>Popcorn Large : Rp. 15.000</item>
+        <item>Paket 1 (Popcorn Small dan Cola) : Rp. 18.000</item>
+        <item>Paket 2 (Popcorn Large dan Cola) : Rp. 22.000</item>
+    </string-array>
 </resources>
