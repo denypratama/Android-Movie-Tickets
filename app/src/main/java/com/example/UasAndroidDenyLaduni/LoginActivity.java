@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (name.equals("hai") && username.equals("halo") && password.equals("haihalo"))
         {
-            Intent intent = new Intent(this, HistoryFragment.class);
+            Intent intent = new Intent(this, MainActivity.class);
             intent.putExtra(NAME_KEY,name);
             intent.putExtra(USERNAME_KEY,username);
             intent.putExtra(PASSWORD_KEY,password);

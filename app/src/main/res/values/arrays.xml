@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Bioskop">
+        <item>Araya XXI</item>
+        <item>TransMart MX Mall XXI</item>
+        <item>Dieng XXI</item>
+        <item>Mandala XXI</item>
+        <item>Aurora Cinemax</item>
+        <item>MovieMax Dinoyo</item>
+        <item>MovieMax Sarinah</item>
+        <item>MovieMax City Point</item>
+    </string-array>
+</resources>
