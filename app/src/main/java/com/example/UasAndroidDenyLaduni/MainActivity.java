@@ -1,5 +1,6 @@
 package com.example.UasAndroidDenyLaduni;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -15,6 +16,7 @@ import android.widget.VideoView;
 
 import com.example.UasAndroidDenyLaduni.fragments.CinemaFragment;
 import com.example.UasAndroidDenyLaduni.fragments.HomeFragment;
+import com.example.UasAndroidDenyLaduni.fragments.SettingFragment;
 import com.example.UasAndroidDenyLaduni.fragments.TicketFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -45,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         Fragment fragment = null;
-        switch (menuItem.getItemId()) {
+        switch (menuItem.getItemId())
+        {
             case R.id.home:
                 fragment = new HomeFragment();
                 break;
@@ -55,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.ticket:
                 fragment = new TicketFragment();
                 break;
+            case R.id.set:
+                fragment = new SettingFragment();
+                break;
         }
         return loadFragment(fragment);
     }
@@ -62,5 +68,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
     }
-
 }

@@ -10,7 +10,10 @@
         android:title="CINEMA"
         android:icon="@drawable/navbar_cinema" />
     <item android:id="@+id/ticket"
-        android:title="TICKET"
+        android:title="BIOSKOP"
         android:icon="@drawable/navbar_tiket" />
+    <item android:id="@+id/set"
+        android:title="SETTING"
+        android:icon="@drawable/settings" />
 </menu>
 

@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/dark"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="@id/imageView12"
                 app:layout_constraintTop_toBottomOf="@+id/desc1"
                 app:layout_constraintVertical_bias="0.744" />
 
@@ -68,7 +68,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/avenger2"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="@id/imageView13"
                 app:layout_constraintTop_toBottomOf="@+id/desc1"
                 app:layout_constraintVertical_bias="0.744" />
 
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/avenger3"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="@id/imageView12"
                 app:layout_constraintTop_toBottomOf="@+id/desc1"
                 app:layout_constraintVertical_bias="0.744" />
 
@@ -88,7 +88,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/iron"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="@id/imageView13"
                 app:layout_constraintTop_toBottomOf="@+id/desc1"
                 app:layout_constraintVertical_bias="0.744" />
         </LinearLayout>
@@ -125,7 +125,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/aladdin"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/desc2" />
 
             <ImageView
@@ -134,7 +134,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/aadc"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/desc2" />
 
             <ImageView
@@ -143,7 +143,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/dilan2"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/desc2" />
 
             <ImageView
@@ -152,7 +152,7 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/cinta"
                 app:layout_constraintBottom_toTopOf="@+id/guideline3"
-                app:layout_constraintStart_toEndOf=""
+                app:layout_constraintStart_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/desc2" />
 
 
@@ -262,7 +262,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf=""
         app:layout_constraintVertical_bias="0.173" />
 
     <TextView
@@ -278,7 +277,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf=""
         app:layout_constraintVertical_bias="0.03" />
 
     <androidx.constraintlayout.widget.Guideline
