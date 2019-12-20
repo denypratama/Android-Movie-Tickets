@@ -47,4 +47,44 @@
     <string name="title_copyable_preference">Copyable Preference</string>
     <string name="summary_copyable_preference">Summary of copyable preference</string>
     <string name="home">Home</string>
+
+    <array name="ListBioskop">
+        <item>Araya XXI</item>
+        <item>TransMart MX Mall XXI</item>
+        <item>Dieng XXI</item>
+        <item>Mandala XXI</item>
+        <item>Aurora Cinemax</item>
+        <item>MovieMax Dinoyo</item>
+        <item>MovieMax Sarinah</item>
+        <item>MovieMax City Point</item>
+    </array>
+
+
+    <array name="ListFilm">
+        <item>Avengers</item>
+        <item>Harry Potter</item>
+        <item>Captain America</item>
+        <item>Fifty Shades Of Black</item>
+        <item>Upin Ipin</item>
+        <item>Gatot Kaca</item>
+    </array>
+
+    <array name="ListJam">
+        <item>10.45</item>
+        <item>12.30</item>
+        <item>14.15</item>
+        <item>16.25</item>
+        <item>18.45</item>
+        <item>20.15</item>
+        <item>22.30</item>
+    </array>
+
+    <array name="ListMakan">
+        <item>Popcorn Small</item>
+        <item>Popcorn Large</item>
+        <item>Paket 1 (Popcorn Small dan Cola)0</item>
+        <item>Paket 2 (Popcorn Large dan Cola)</item>
+    </array>
+
+
 </resources>
