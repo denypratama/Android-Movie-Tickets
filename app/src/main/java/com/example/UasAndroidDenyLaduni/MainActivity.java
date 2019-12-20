@@ -1,20 +1,12 @@
 package com.example.UasAndroidDenyLaduni;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.MediaController;
-import android.widget.VideoView;
-
-import com.example.UasAndroidDenyLaduni.fragments.CinemaFragment;
 import com.example.UasAndroidDenyLaduni.fragments.HomeFragment;
 import com.example.UasAndroidDenyLaduni.fragments.SettingFragment;
 import com.example.UasAndroidDenyLaduni.fragments.TicketFragment;
@@ -64,6 +56,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }
         return loadFragment(fragment);
     }
+
+//    @Override
+//    public void onp1Clicked() {
+//        getSupportFragmentManager().beginTransaction().addToBackStack(null)
+//                .replace(R.id.fragment_container, new CinemaFragment())
+//                .commit();
+//    }
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {

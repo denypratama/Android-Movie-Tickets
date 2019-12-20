@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/bgs"
     android:backgroundTintMode="screen"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login Form"
+        android:text="Register Form"
         android:textAlignment="center"
         android:textColor="@color/putih"
         android:textSize="25dp"
@@ -24,13 +24,13 @@
         app:layout_constraintVertical_bias="0.279" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/viewMail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginTop="326dp"
         android:layout_marginBottom="386dp"
-        android:text="Nama"
+        android:text="Email"
         android:textSize="15dp"
         android:textStyle="bold"
         android:textColor="@color/putih"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/viewUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.72" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/viewPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -71,60 +71,59 @@
         app:layout_constraintVertical_bias="0.679" />
 
     <EditText
-        android:id="@+id/inname"
+        android:id="@+id/edtMail"
         android:layout_width="226dp"
         android:layout_height="38dp"
         android:layout_marginBottom="375dp"
         android:ems="10"
-        android:hint="Nama . . ."
+        android:hint="Masukkan Email"
         android:inputType="textPersonName"
         android:textColorHint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/viewMail"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.837" />
 
     <EditText
-        android:id="@+id/inusername"
+        android:id="@+id/edtUsername"
         android:layout_width="228dp"
         android:layout_height="44dp"
         android:layout_marginBottom="311dp"
         android:ems="10"
-        android:hint="Username . . ."
+        android:hint="Masukkan Username"
         android:inputType="textPersonName"
         android:textColorHint="@color/putih"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
-        app:layout_constraintStart_toEndOf="@+id/textView15"
-        app:layout_constraintTop_toBottomOf="@+id/inname"
+        app:layout_constraintStart_toEndOf="@+id/viewUsername"
+        app:layout_constraintTop_toBottomOf="@+id/edtMail"
         app:layout_constraintVertical_bias="0.512" />
 
     <EditText
-        android:id="@+id/inpass"
+        android:id="@+id/edtPassword"
         android:layout_width="225dp"
         android:layout_height="38dp"
         android:ems="10"
-        android:hint="Password . . ."
+        android:hint="Masukkan Password"
         android:inputType="textPassword"
         android:textColorHint="@color/putih"
-        app:layout_constraintBottom_toTopOf="@+id/inlogin"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.256"
-        app:layout_constraintStart_toEndOf="@+id/textView16"
-        app:layout_constraintTop_toBottomOf="@+id/inusername"
+        app:layout_constraintStart_toEndOf="@+id/viewPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtUsername"
         app:layout_constraintVertical_bias="0.192" />
 
     <Button
-        android:id="@+id/inlogin"
+        android:id="@+id/btnSignUp"
         android:layout_width="87dp"
         android:layout_height="26dp"
         android:layout_marginTop="515dp"
         android:background="@color/putih"
-        android:onClick="login"
-        android:text="Login"
+        android:text="Daftar"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

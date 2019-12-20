@@ -45,18 +45,18 @@
             android:entryValues="@array/Bioskop"/>
 
         <DropDownPreference
-            android:key="dropdown"
+            android:key="dropdown1"
             android:title="Pilih Waktu yang Diinginkan : "
             android:entries="@array/jam"
             app:useSimpleSummaryProvider="true"
-            android:entryValues="@array/Bioskop"/>
+            android:entryValues="@array/jam"/>
 
         <DropDownPreference
-            android:key="dropdown"
+            android:key="dropdown2"
             android:title="Pilih Makanan yang Diinginkan : "
             android:entries="@array/makan"
             app:useSimpleSummaryProvider="true"
-            android:entryValues="@array/Bioskop"/>
+            android:entryValues="@array/makan"/>
 
 <!--        <SeekBarPreference-->
 <!--            android:key="seekbar"-->

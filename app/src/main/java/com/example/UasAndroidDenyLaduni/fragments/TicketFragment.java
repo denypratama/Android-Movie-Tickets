@@ -3,6 +3,7 @@ package com.example.UasAndroidDenyLaduni.fragments;
 
 import android.app.Application;
 import android.content.SharedPreferences;
+import android.media.Image;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.UasAndroidDenyLaduni.App;
@@ -26,6 +28,8 @@ public class TicketFragment extends Fragment {
     public static final String CHECKBOX_KEY = "checkbox";
     public static final String SWITCH_KEY = "switch";
     public static final String DROPDOWN_KEY = "dropdown";
+    public static final String DROPDOWN_KEYjam = "dropdown1";
+    public static final String DROPDOWN_KEYmakan = "dropdown2";
     public static final String SEEKBAR_KEY = "seekbar";
 
     private SharedPreferences preferences;
@@ -62,10 +66,13 @@ public class TicketFragment extends Fragment {
         boolean checkboxValue = preferences.getBoolean(CHECKBOX_KEY, false);
         boolean switchValue = preferences.getBoolean(SWITCH_KEY, false);
         String dropdownValue = preferences.getString(DROPDOWN_KEY, null);
-        String dropjamnilai = preferences.getString(DROPDOWN_KEY, null);
-        String dropmakannilai = preferences.getString(DROPDOWN_KEY, null);
+        String dropjamnilai = preferences.getString(DROPDOWN_KEYjam, null);
+        String dropmakannilai = preferences.getString(DROPDOWN_KEYmakan, null);
         int seekbarValue = preferences.getInt(SEEKBAR_KEY, 0);
 
+        if (dropdownValue == "Araya XXI"){
+
+        }
 //        checkboxText.setText((checkboxValue) ? "enable" : "disable");
 //        switchText.setText((switchValue) ? "enable" : "disable");
         dropdownText.setText(dropdownValue);
