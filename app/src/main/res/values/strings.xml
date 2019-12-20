@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UAS</string>
+    <string name="app_name">e-Ticket</string>
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
@@ -47,6 +47,15 @@
     <string name="title_copyable_preference">Copyable Preference</string>
     <string name="summary_copyable_preference">Summary of copyable preference</string>
     <string name="home">Home</string>
+    <string name="pesan_film">Pesan Film</string>
+    <string name="film_bioskop">Film Bioskop :</string>
+    <string name="jam_tayang">Jam Tayang :</string>
+    <string name="makanan">Makanan :</string>
+    <string name="nama">Nama :</string>
+    <string name="order">Order</string>
+    <string name="history">History</string>
+    <string name="name">Name</string>
+    <string name="film">Film :</string>
 
     <array name="ListBioskop">
         <item>Araya XXI</item>

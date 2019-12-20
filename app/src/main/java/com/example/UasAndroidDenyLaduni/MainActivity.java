@@ -53,9 +53,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.ticket:
                 fragment = new SettingFragment();
                 break;
-//            case R.id.set:
-//                fragment = new SettingFragment();
-//                break;
+            case R.id.order:
+                startActivity(new Intent(MainActivity.this,te.class));
+                finish();
+                break;
         }
         return loadFragment(fragment);
     }
