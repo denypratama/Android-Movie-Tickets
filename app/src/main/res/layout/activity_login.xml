@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/design_default_color_primary"
     android:backgroundTintMode="screen"
-    tools:context=".RegisterActivity">
+    tools:context=".LoginActivity">
 
 
     <ImageView
@@ -25,8 +25,9 @@
         android:layout_marginEnd="120dp"
         app:srcCompat="@drawable/user" />
 
+
     <EditText
-        android:id="@+id/edtMail"
+        android:id="@+id/edtUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -37,23 +38,6 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="250dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:hint="Email"
-        android:textColorHint="@color/putih" />
-
-    <EditText
-        android:id="@+id/edtUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edtMail"
-        android:layout_alignStart="@+id/edtMail"
-        android:layout_alignLeft="@+id/edtMail"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Username"
@@ -79,7 +63,7 @@
         android:textColorHint="@color/putih" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtPassword"
@@ -89,20 +73,20 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:text="Register"
-        android:textColor="@color/hitam"
-        android:background="@color/putih"/>
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@color/putih"
+        android:text="Login"
+        android:textColor="@color/hitam" />
 
     <Button
-        android:id="@+id/btnToSignIn"
+        android:id="@+id/btnToSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSignUp"
-        android:layout_alignStart="@+id/btnSignUp"
-        android:layout_alignLeft="@+id/btnSignUp"
+        android:layout_below="@+id/btnSignIn"
+        android:layout_alignStart="@+id/btnSignIn"
+        android:layout_alignLeft="@+id/btnSignIn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="0dp"
@@ -110,7 +94,7 @@
         android:layout_marginTop="228dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Login"
+        android:text="Daftar Akun Baru"
         android:textColor="@color/putih"
         android:background="@color/bgbiru"/>
 

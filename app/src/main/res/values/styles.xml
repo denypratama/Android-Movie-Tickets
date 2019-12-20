@@ -9,6 +9,8 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:colorPrimaryDark">#191970</item>
+        <item name="colorButtonNormal">@color/putih</item>
+        <item name="colorControlHighlight">@color/hitam</item>
     </style>
 
 </resources>

@@ -1,5 +1,6 @@
 package com.example.UasAndroidDenyLaduni;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
     DatabaseReference users;
 
     EditText edtUsername, edtPassword, edtMail;
-    Button btnSignUp;
+    Button btnSignUp,btnToSignIn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,6 +39,15 @@ public class RegisterActivity extends AppCompatActivity {
         edtMail = (EditText) findViewById(R.id.edtMail);
 
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
+        btnToSignIn = (Button) findViewById(R.id.btnToSignIn);
+
+        btnToSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pagelogin = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(pagelogin);
+            }
+        });
 
         btnSignUp.setOnClickListener(new View.OnClickListener(){
             @Override
